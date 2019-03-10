@@ -1,4 +1,4 @@
-# How many the shortest ways are there?
+# Pathfinding
 
 Keywords: `Taxicab Geometry`, `Analytical Programming`, `Procedural Thinking`
 
