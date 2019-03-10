@@ -1,10 +1,10 @@
-# How many the shortest ways are there? (Advanced)
+# Pathfinding (Advanced)
 
 Keywords: `Taxicab Geometry`, `Analytical Programming`, `Procedural Thinking`
 
 ## Overview
 
-Prerequisite: `How many the shortest ways are there?`
+Prerequisite: [`Pathfinding`](Pathfinding.md)
 
 Students will develop algorithmic thinking skills to move rabbits from one side to another side of the city. Students will then learn how many different ways exist to move in the shortest way. Delving deeper, students will learn the how many distinct paths are there, and understand the basics of `iteration` (commonly used as 	`for loop` in coding.)
 
@@ -73,11 +73,11 @@ Try to find the shortest paths again!
 * Changing the first horizontal move and the third horizontal move would result in a same path. They are both the same horizontal move.
 * So there are repeated cases where each horizontal moves and vertical moves are mixed with themselves.
 * In total 8! of combinations, these 8! include 5! of horizontal move remixes, and 3! of vertiacal moves remixes.
-* Then the final combination value would be <img src="https://latex.codecogs.com/gif.latex? 8! \over {5! \times 3!}"\> which is 56.
+* Then the final combination value would be 8!/(5! * 3!) which is 56.
 
 ### Wrap up (5 minutes)
 * If there is M * N size city, how many shortest path combination would there be?
 
 > Teacher's guide
 
-> Noting the previous example, we can guess that the combinations would be <img src="https://latex.codecogs.com/gif.latex? (M+N-2)! \over {(M-1)! \times (N-1)!}"\>
+> Noting the previous example, we can guess that the combinations would be (M+N-2)! / {(M-1)! * (N-1)!}
