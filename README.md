@@ -1,16 +1,7 @@
-# Codeless Code Lab
+# Sunghyun Cho
 
-This repository contains resources for demonstrating Computerless Coding Lab. While the knowledge itself is not brand new, every educational resources are created by Sunghyun Cho.
-
-Everyone is free to reuse or recreate this repository, under the condition explicitly noting that I, Sunghyun Cho, is the creator of this curriculum.
-
-Special thanks for Mr. Park, Yong Sung, for providing ideas where I could have started.
-
-## Jumping Stairs
-## Hanoi's Tower
-
-## Fonts used
-* Major Mono Display
-* Cutive Mono
-* Apple Emoji
-* Kakao Font
+|Demo Difficulty|Link|Expected Class Length|Keywords|
+|---|---|---|---|
+|Easy|[Pathfinding](Pathfinding.md)|15 minutes|`Taxicab Geometry`, `Analytical Programming`, `Procedural Thinking`.|
+|Intermediate|[Pathfinding (Advanced)](Pathfinding (Advanced).md)|15~20 minutes|`Taxicab Geometry`, `Analytical Programming`, `Procedural Thinking`.|
+|Difficult|[Jumping Stairs](Jumping Stairs/Jumping Stairs Script.md)|20~30 minutes|`Dynamic Programming`, `Memoization`, `Tabulation`.|
